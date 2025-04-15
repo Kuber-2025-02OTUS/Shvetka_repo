@@ -34,7 +34,7 @@ spec:
           exec:
             command:
             - cat
-            - /tmp/healthy
+            - /homework/index.html
           initialDelaySeconds: 5
           periodSeconds: 5
       initContainers:
